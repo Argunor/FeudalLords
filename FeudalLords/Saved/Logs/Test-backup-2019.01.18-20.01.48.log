@@ -1,0 +1,817 @@
+﻿Log file open, 01/17/19 21:58:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Test
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.137266
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.251s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 7 (Service Pack 1), CPU: Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.061s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.17-18.58.48:402][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.17-18.58.48:402][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.17-18.58.48:444][  0]LogHAL: Display: Platform has ~ 8 GB [8539705344 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.17-18.58.48:444][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.17-18.58.48:444][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.17-18.58.48:444][  0]LogInit: Computer: KOMP
+[2019.01.17-18.58.48:444][  0]LogInit: User: Саша
+[2019.01.17-18.58.48:444][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.17-18.58.48:444][  0]LogInit: High frequency timer resolution =3.609501 MHz
+[2019.01.17-18.58.48:445][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.01.17-18.58.48:445][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.17-18.58.48:445][  0]LogMemory: Process Physical Memory: 101.27 MB used, 101.27 MB peak
+[2019.01.17-18.58.48:445][  0]LogMemory: Process Virtual Memory: 90.79 MB used, 90.79 MB peak
+[2019.01.17-18.58.48:445][  0]LogMemory: Physical Memory: 6809.37 MB used,  1334.73 MB free, 8144.10 MB total
+[2019.01.17-18.58.48:445][  0]LogMemory: Virtual Memory: 477.13 MB used,  1334.73 MB free, 8388608.00 MB total
+[2019.01.17-18.58.48:465][  0]LogInit: Using OS detected language (ru-RU).
+[2019.01.17-18.58.48:465][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.01.17-18.58.48:465][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.01.17-18.58.48:467][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
+[2019.01.17-18.58.48:519][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.17-18.58.48:520][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.17-18.58.48:680][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.17-18.58.48:680][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.17-18.58.48:822][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2019.01.17-18.58.48:822][  0]LogD3D11RHI:       2977/0/3816 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.17-18.58.48:822][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.17-18.58.48:828][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.17-18.58.48:828][  0]LogD3D11RHI:     GPU DeviceId: 0x1b84 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.17-18.58.48:828][  0]LogWindows: EnumDisplayDevices:
+[2019.01.17-18.58.48:828][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2019.01.17-18.58.48:828][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.01.17-18.58.48:829][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.01.17-18.58.48:829][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.01.17-18.58.48:829][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.01.17-18.58.48:829][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.01.17-18.58.48:829][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.01.17-18.58.48:829][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.17-18.58.48:829][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2019.01.17-18.58.48:829][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2019.01.17-18.58.48:829][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2019.01.17-18.58.48:829][  0]LogRHI: Texture pool is 2084 MB (70% of 2977 MB)
+[2019.01.17-18.58.48:849][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.17-18.58.48:995][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.17-18.58.48:997][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../MyProjects/Test/Intermediate/Shaders/WorkingDirectory/8616/).
+[2019.01.17-18.58.48:997][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Саша/AppData/Local/Temp/UnrealShaderWorkingDir/DBF08E754D222387541D6AAC0E8C6980/'.
+[2019.01.17-18.58.49:810][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.17-18.58.49:828][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.17-18.58.49:843][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.17-18.58.49:856][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.17-18.58.49:870][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.17-18.58.49:885][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.17-18.58.49:898][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.17-18.58.49:916][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.17-18.58.49:922][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:013][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.17-18.58.50:014][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.17-18.58.50:072][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.17-18.58.50:072][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.17-18.58.50:098][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.17-18.58.50:099][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.17-18.58.50:113][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.17-18.58.50:129][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.17-18.58.50:143][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.17-18.58.50:156][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.17-18.58.50:164][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.17-18.58.50:164][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.17-18.58.50:212][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.17-18.58.50:212][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.17-18.58.50:212][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.17-18.58.51:113][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.17-18.58.51:203][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/Саша/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.17-18.58.51:204][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Саша/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.17-18.58.51:204][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyProjects/Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.17-18.58.51:204][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.17-18.58.51:204][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyProjects/Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.17-18.58.51:204][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.17-18.58.51:221][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.17-18.58.51:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Саша/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.17-18.58.51:232][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.17-18.58.51:232][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.17-18.58.51:259][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.17-18.58.51:261][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.17-18.58.51:261][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.17-18.58.51:334][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2019.01.17-18.58.51:751][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.17-18.58.51:905][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.17-18.58.51:907][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.17-18.58.51:907][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.17-18.58.51:907][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.17-18.58.51:907][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.17-18.58.51:923][  0]LogNetVersion: Test 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1561055972)
+[2019.01.17-18.58.53:133][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.625703 seconds
+[2019.01.17-18.58.53:139][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.17-18.58.53:139][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.17-18.58.53:139][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.17-18.58.54:125][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.17-18.58.54:138][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.17-18.58.54:279][  0]SourceControl: Source control is disabled
+[2019.01.17-18.58.54:279][  0]SourceControl: Source control is disabled
+[2019.01.17-18.58.54:281][  0]SourceControl: Source control is disabled
+[2019.01.17-18.58.54:281][  0]SourceControl: Source control is disabled
+[2019.01.17-18.58.54:490][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.17-18.58.54:542][  0]LogOcInput: OculusInput pre-init called
+[2019.01.17-18.58.54:606][  0]LogEngine: Initializing Engine...
+[2019.01.17-18.58.54:607][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.17-18.58.54:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.17-18.58.54:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.17-18.58.54:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.17-18.58.54:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.17-18.58.54:878][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.17-18.58.54:898][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.17-18.58.54:911][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-18.58.54:916][  0]LogInit: FAudioDevice initialized.
+[2019.01.17-18.58.54:917][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.17-18.58.55:189][  0]LogDerivedDataCache: Saved boot cache 0.27s 71MB C:/Users/Саша/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.17-18.58.55:189][  0]LogInit: Texture streaming: Enabled
+[2019.01.17-18.58.55:205][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.17-18.58.55:214][  0]LogInit: Transaction tracking system initialized
+[2019.01.17-18.58.55:232][  0]BlueprintLog: New page: Editor Load
+[2019.01.17-18.58.55:310][  0]LocalizationService: Localization service is disabled
+[2019.01.17-18.58.56:038][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.17-18.58.56:038][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.17-18.58.56:038][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.17-18.58.56:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.17-18.58.56:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.17-18.58.56:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.17-18.58.56:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.17-18.58.56:163][  0]LogFileCache: Scanning file cache for directory 'D:/MyProjects/Test/Content/' took 0.03s
+[2019.01.17-18.58.56:163][  0]SourceControl: Source control is disabled
+[2019.01.17-18.58.56:163][  0]Cmd: MAP LOAD FILE="../../../../../MyProjects/Test/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.17-18.58.56:163][  0]LightingResults: New page: Lighting Build
+[2019.01.17-18.58.56:166][  0]MapCheck: New page: Map Check
+[2019.01.17-18.58.56:166][  0]LightingResults: New page: Lighting Build
+[2019.01.17-18.58.59:589][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-18.58.59:718][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.17-18.58.59:744][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.17-18.58.59:780][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36,507ms to complete.
+[2019.01.17-18.58.59:781][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 3.618
+[2019.01.17-18.59.00:864][  0]LogCollectionManager: Loaded 0 collections in 0.000948 seconds
+[2019.01.17-18.59.01:025][  0]LogFileCache: Scanning file cache for directory 'D:/MyProjects/Test/Saved/Collections/' took 0.01s
+[2019.01.17-18.59.01:025][  0]LogFileCache: Scanning file cache for directory 'D:/MyProjects/Test/Content/Developers/Саша/Collections/' took 0.01s
+[2019.01.17-18.59.01:025][  0]LogFileCache: Scanning file cache for directory 'D:/MyProjects/Test/Content/Collections/' took 0.01s
+[2019.01.17-18.59.01:025][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.17-18.59.01:039][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2573 classes and 605 folders.
+[2019.01.17-18.59.01:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.17-18.59.02:196][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.17-18.59.03:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-18.59.03:583][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-18.59.03:591][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-18.59.03:602][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-18.59.10:023][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.17-18.59.11:113][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.17-18.59.11:114][  0]LogLoad: (Engine Initialization) Total time: 25.82 seconds
+[2019.01.17-18.59.11:114][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.17-18.59.11:895][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Test
+[2019.01.17-18.59.11:896][  0]LogTemp: CWD: D:\Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.17-18.59.11:896][  0]LogTemp: Initial Dir: D:\Games\UE_4.20
+[2019.01.17-18.59.11:896][  0]LogTemp: Env CWD: D:\Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.17-18.59.11:896][  0]LogTemp: BranchPath = KOMP/D/Games/UE_4.20/Engine/Binaries --- GameBranchPath = KOMP/D/Games/UE_4.20/Engine/Binaries
+[2019.01.17-18.59.12:377][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
+[2019.01.17-18.59.12:377][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.17-18.59.12:378][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.17-18.59.12:432][  0]LogSlate: Took 0.050822 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.17-18.59.12:523][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.17-18.59.12:926][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\????\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.17-18.59.12:926][  0]LogSlate: Took 0.205058 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.17-18.59.13:647][  1]LogRenderer: Reallocating scene render targets to support 924x664 Format 10 NumSamples 1 (Frame:1).
+[2019.01.17-18.59.14:132][  2]LogAssetRegistry: Asset discovery search completed in 22.8182 seconds
+[2019.01.17-18.59.14:135][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.17-18.59.14:135][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2019.01.17-18.59.14:147][  2]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.17-18.59.17:618][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-18.59.17:790][370]LogRenderer: Reallocating scene render targets to support 1388x992 Format 10 NumSamples 1 (Frame:297).
+[2019.01.17-18.59.19:126][503]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-18.59.19:180][503]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-18.59.19:181][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-18.59.19:220][503]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 0:59:19)
+[2019.01.17-18.59.19:220][503]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-18.59.19:278][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058303s)
+[2019.01.17-18.59.19:279][503]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-18.59.19:280][503]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2019.01.17-18.59.19:280][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.059614s)
+[2019.01.17-18.59.19:311][503]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-18.59.19:314][503]LogInit: FAudioDevice initialized.
+[2019.01.17-18.59.19:386][503]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-18.59.19:405][503]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-21.59.19
+[2019.01.17-18.59.19:450][503]LogWorld: Bringing up level for play took: 0.046241
+[2019.01.17-18.59.19:508][503]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.01.17-18.59.19:572][503]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0,37
+[2019.01.17-18.59.19:572][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-18.59.22:124][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-18.59.22:160][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-18.59.22:191][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-18.59.22:191][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-18.59.22:220][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-18.59.22:241][769]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.17-18.59.24:367][968]LogEditorViewport: Clicking on Actor (LMB): PuzzlePlayerCharacter_C (PuzzlePlayerCharacter)
+[2019.01.17-18.59.26:760][177]LogEditorViewport: Clicking on Actor (LMB): PuzzlePlayerCharacter_C (PuzzlePlayerCharacter)
+[2019.01.17-18.59.26:858][178]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FP_Camera)
+[2019.01.17-18.59.29:062][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-18.59.37:170][340]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.17-18.59.49:438][600]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter.PuzzlePlayerCharacter
+[2019.01.17-18.59.50:655][600]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2019.01.17-18.59.52:864][600]LogSlate: Took 0.022273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.17-18.59.53:437][601]LogSlate: Took 0.081050 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.17-19.00.03:379][203]LogSlate: Window 'PuzzlePlayerCharacter' being destroyed
+[2019.01.17-19.00.42:444][557]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
+[2019.01.17-19.00.42:444][557]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
+[2019.01.17-19.00.42:451][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.17-19.00.45:144][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.00.45:269][884]BlueprintLog: New page: Compile PuzzlePlayerCharacter
+[2019.01.17-19.00.47:014][997]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.00.47:032][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.00.47:032][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-19.00.47:032][997]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 1:00:47)
+[2019.01.17-19.00.47:032][997]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-19.00.47:052][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020033s)
+[2019.01.17-19.00.47:053][997]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-19.00.47:053][997]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2019.01.17-19.00.47:054][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.021314s)
+[2019.01.17-19.00.47:095][997]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-19.00.47:107][997]LogInit: FAudioDevice initialized.
+[2019.01.17-19.00.47:163][997]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-19.00.47:165][997]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-22.00.47
+[2019.01.17-19.00.47:165][997]LogWorld: Bringing up level for play took: 0.001931
+[2019.01.17-19.00.47:182][997]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0,023
+[2019.01.17-19.00.47:182][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.00.49:320][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.00.49:320][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.00.49:356][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-19.00.49:356][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.00.49:391][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.00.49:423][249]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.17-19.00.55:740][973]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
+[2019.01.17-19.00.55:740][973]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
+[2019.01.17-19.00.58:983][342]BlueprintLog: New page: Compile PuzzlePlayerCharacter
+[2019.01.17-19.01.00:822][511]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.01.00:845][511]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.01.00:846][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-19.01.00:846][511]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 1:01:00)
+[2019.01.17-19.01.00:846][511]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-19.01.00:863][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016873s)
+[2019.01.17-19.01.00:864][511]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-19.01.00:864][511]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2019.01.17-19.01.00:864][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.017994s)
+[2019.01.17-19.01.00:907][511]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-19.01.00:910][511]LogInit: FAudioDevice initialized.
+[2019.01.17-19.01.00:943][511]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-19.01.00:945][511]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-22.01.00
+[2019.01.17-19.01.00:945][511]LogWorld: Bringing up level for play took: 0.001730
+[2019.01.17-19.01.00:961][511]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0,245
+[2019.01.17-19.01.00:961][511]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.01.03:197][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.01.03:197][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.01.03:234][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-19.01.03:235][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.01.03:264][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.01.03:315][773]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.17-19.01.04:982][934]LogEditorViewport: Clicking on Actor (LMB): PuzzlePlayerCharacter_C (PuzzlePlayerCharacter)
+[2019.01.17-19.01.09:046][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.02.57:379][519]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.17-19.03.30:453][320]MapCheck: New page: Map Check
+[2019.01.17-19.03.30:508][320]Cmd: MAP REBUILD ALLVISIBLE
+[2019.01.17-19.03.30:508][320]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.01.17-19.03.30:782][320]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2019.01.17-19.03.30:880][320]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.17-19.03.30:880][320]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.01.17-19.03.30:925][320]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaskedUnlitSpriteMaterial, compiling. 
+[2019.01.17-19.03.30:985][320]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.01.17-19.03.33:578][320]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.17-19.03.33:578][320]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.17-19.03.33:578][320]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.17-19.03.33:578][320]TextureStreamingBuild: Display: Compiling optional shaders took 2.867 seconds.
+[2019.01.17-19.03.33:641][320]LogLevel: Display: Export Material TexCoord Scales took 0.063 seconds.
+[2019.01.17-19.03.33:664][320]TextureStreamingBuild: Display: Build Texture Streaming took 0.014 seconds.
+[2019.01.17-19.03.33:704][320]LightingResults: New page: Lighting Build - 18 янв. 2019 г., 1:03:33
+[2019.01.17-19.03.34:325][320]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.01.17-19.03.34:940][320]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.01.17-19.03.35:429][320]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.01.17-19.03.38:605][320]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2019.01.17-19.03.39:032][320]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8008
+
+Server stack trace: 
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   в System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   в System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   в System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   в System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   в NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags) в D:\Build\++UE4\Sync\Saved\CsTools\Engine\Source\Editor\SwarmInterface\DotNET\SwarmInterface.cs:строка 2811
+[2019.01.17-19.03.44:595][320]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.01.17-19.03.44:595][320]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8616
+[2019.01.17-19.03.54:235][320]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.01.17-19.03.54:235][320]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.01.17-19.03.54:235][320]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.01.17-19.03.54:235][320]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.01.17-19.03.54:235][320]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.01.17-19.03.55:075][320]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.01.17-19.03.55:075][320]MapCheck: New page: PuzzleExampleMap - 18 янв. 2019 г., 1:03:55
+[2019.01.17-19.03.55:200][320]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124,328ms to complete.
+[2019.01.17-19.03.55:277][320]LogEditorBuildUtils: Build time 0:24
+[2019.01.17-19.03.55:315][320]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.01.17-19.03.55:417][320]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.17-19.03.55:417][320]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.01.17-19.03.55:448][320]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.17-19.04.01:554][584]Job is a success!
+[2019.01.17-19.04.01:984][585]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2019.01.17-19.04.01:984][585]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.01.17-19.04.01:984][585]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.01.17-19.04.01:984][585]LogVolumetricLightmapImport:      Bricks at Level
+[2019.01.17-19.04.01:984][585]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.01.17-19.04.01:985][585]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.01.17-19.04.01:985][585]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.01.17-19.04.02:230][585]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 64X32)
+[2019.01.17-19.04.02:230][585]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 64X64)
+[2019.01.17-19.04.02:230][585]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 64X64)
+[2019.01.17-19.04.02:230][585]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2019.01.17-19.04.02:474][585]Lightmass on KOMP: 2.68 sec total, 676 ms importing, 6 ms setup, 242 ms photons, 1.14 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 4.52 sec total, 132 ms processing.
+[2019.01.17-19.04.02:531][585]LogStaticLightingSystem: Illumination: 28.7 sec (127 ms encoding lightmaps, 35 ms encoding shadowmaps)
+[2019.01.17-19.04.02:531][585]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.01.17-19.04.02:531][585]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.01.17-19.04.03:190][585]DumpUnbuiltLightIteractions
+[2019.01.17-19.04.03:190][585]Lights with unbuilt interactions: 0
+[2019.01.17-19.04.03:190][585]
+[2019.01.17-19.04.03:190][585]Primitives with unbuilt interactions: 0
+[2019.01.17-19.04.03:315][586]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.01.17-19.04.03:316][586]MapCheck: New page: PuzzleExampleMap - 18 янв. 2019 г., 1:04:03
+[2019.01.17-19.04.03:354][586]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38,423ms to complete.
+[2019.01.17-19.04.08:825][201]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.04.08:840][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.04.08:840][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-19.04.08:840][201]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 1:04:08)
+[2019.01.17-19.04.08:840][201]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-19.04.08:855][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014661s)
+[2019.01.17-19.04.08:856][201]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-19.04.08:857][201]LogPlayLevel: PIE: World Init took: (0.001803s)
+[2019.01.17-19.04.08:857][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.016733s)
+[2019.01.17-19.04.08:895][201]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-19.04.08:898][201]LogInit: FAudioDevice initialized.
+[2019.01.17-19.04.08:929][201]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-19.04.08:930][201]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-22.04.08
+[2019.01.17-19.04.08:931][201]LogWorld: Bringing up level for play took: 0.000977
+[2019.01.17-19.04.08:947][201]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0,266
+[2019.01.17-19.04.08:947][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.04.11:468][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.04.11:468][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.04.11:502][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-19.04.11:503][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.04.11:536][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.04.11:583][493]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.17-19.04.16:311][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.04.16:477][ 27]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PuzzlePlayerController.PuzzlePlayerController
+[2019.01.17-19.04.22:749][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.04.32:975][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.06.40:093][622]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.17-19.06.47:580][ 34]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.17-19.07.02:393][729]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player.Player
+[2019.01.17-19.07.16:937][147]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
+[2019.01.17-19.07.21:421][650]BlueprintLog: New page: Compile Player
+[2019.01.17-19.07.24:384][948]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.17-19.07.29:944][526]LogEditorViewport: Clicking on Actor (LMB): PuzzlePlayerCharacter_C (PuzzlePlayerCharacter)
+[2019.01.17-19.07.30:901][617]Cmd: DELETE
+[2019.01.17-19.07.30:901][617]Cmd: ACTOR DELETE
+[2019.01.17-19.07.31:287][617]LogEditorActor: Deleted Actor: PuzzlePlayerCharacter_C
+[2019.01.17-19.07.31:348][617]LogEditorActor: Deleted 1 Actors (0.151 secs)
+[2019.01.17-19.07.32:473][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.07.46:092][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.08.03:903][816]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2019.01.17-19.08.07:348][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.08.34:654][144]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.08.34:682][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.08.34:682][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-19.08.34:683][144]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 1:08:34)
+[2019.01.17-19.08.34:683][144]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-19.08.34:698][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015126s)
+[2019.01.17-19.08.34:699][144]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-19.08.34:700][144]LogPlayLevel: PIE: World Init took: (0.001476s)
+[2019.01.17-19.08.34:700][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.016881s)
+[2019.01.17-19.08.34:801][144]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-19.08.34:805][144]LogInit: FAudioDevice initialized.
+[2019.01.17-19.08.34:838][144]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-19.08.34:839][144]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-22.08.34
+[2019.01.17-19.08.34:840][144]LogWorld: Bringing up level for play took: 0.001462
+[2019.01.17-19.08.34:945][144]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0,277
+[2019.01.17-19.08.34:945][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.08.37:826][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.08.37:827][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.08.37:861][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-19.08.37:862][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.08.37:908][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.08.37:930][467]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.17-19.08.39:503][624]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2019.01.17-19.08.44:294][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.08.44:824][135]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.08.44:844][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.08.44:845][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-19.08.44:845][135]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 1:08:44)
+[2019.01.17-19.08.44:845][135]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-19.08.44:860][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015288s)
+[2019.01.17-19.08.44:861][135]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-19.08.44:862][135]LogPlayLevel: PIE: World Init took: (0.001597s)
+[2019.01.17-19.08.44:862][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.017363s)
+[2019.01.17-19.08.44:930][135]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-19.08.44:932][135]LogInit: FAudioDevice initialized.
+[2019.01.17-19.08.44:962][135]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-19.08.44:964][135]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-22.08.44
+[2019.01.17-19.08.44:964][135]LogWorld: Bringing up level for play took: 0.001864
+[2019.01.17-19.08.44:979][135]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0,243
+[2019.01.17-19.08.44:980][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.08.47:843][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.08.47:844][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.08.47:878][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-19.08.47:879][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.08.47:915][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.08.47:948][470]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.01.17-19.08.52:830][ 24]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2019.01.17-19.08.59:734][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.09.55:723][227]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzleExampleMap_Auto1B0680102444A1FF90B36B99C6840406D.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap'
+[2019.01.17-19.09.55:780][227]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.707
+[2019.01.17-19.09.55:780][227]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.707
+[2019.01.17-19.09.55:800][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter] ([1] browsable assets)...
+[2019.01.17-19.09.55:800][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter]
+[2019.01.17-19.09.55:951][227]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzlePlayerCharacter_Auto1DF68DDCC430259DA51184BA22666BDCB.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter_Auto1.uasset'
+[2019.01.17-19.09.55:989][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzleGameMode] ([1] browsable assets)...
+[2019.01.17-19.09.55:989][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzleGameMode]
+[2019.01.17-19.09.55:997][227]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzleGameMode_Auto11E5E8A7643FE64C1472AEB85BC648961.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleGameMode_Auto1.uasset'
+[2019.01.17-19.09.55:998][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Maps/PuzzleExampleMap_BuiltData] ([1] browsable assets)...
+[2019.01.17-19.09.55:998][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Maps/PuzzleExampleMap_BuiltData]
+[2019.01.17-19.09.56:025][227]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzleExampleMap_BuiltData_Auto11E7F2DEE47E7A772CF56A992E38F6F72.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_BuiltData_Auto1.uasset'
+[2019.01.17-19.09.56:027][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzlePlayerController] ([1] browsable assets)...
+[2019.01.17-19.09.56:027][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzlePlayerController]
+[2019.01.17-19.09.56:027][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzlePlayerController" FILE="../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzlePlayerController_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.17-19.09.56:050][227]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzlePlayerController_Auto1C4B7CD61479E09BF182AA7A6636658CA.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzlePlayerController_Auto1.uasset'
+[2019.01.17-19.09.56:051][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player] ([1] browsable assets)...
+[2019.01.17-19.09.56:051][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player]
+[2019.01.17-19.09.56:051][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../MyProjects/Test/Saved/Autosaves/Game/Player_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.17-19.09.56:060][227]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/Player_Auto174D265B3411D98D26ABFBA8361B478DD.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/Player_Auto1.uasset'
+[2019.01.17-19.09.56:061][227]LogFileHelpers: Auto-saving content packages took 0.278
+[2019.01.17-19.10.31:032][598]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter.PuzzlePlayerCharacter
+[2019.01.17-19.10.49:440][531]BlueprintLog: New page: Compile Player
+[2019.01.17-19.10.49:480][531]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "FP_Camera" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get FP_Camera
+[2019.01.17-19.10.49:480][531]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "FP_Camera" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get FP_Camera
+[2019.01.17-19.10.49:480][531]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CameraSpeedCurve" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get CameraSpeedCurve
+[2019.01.17-19.10.49:481][531]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CurrenBlockFocus" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get CurrenBlockFocus
+[2019.01.17-19.10.49:481][531]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CurrenBlockFocus" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Set CurrenBlockFocus
+[2019.01.17-19.10.49:481][531]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CurrenBlockFocus" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get CurrenBlockFocus
+[2019.01.17-19.10.49:481][531]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CurrenBlockFocus" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Set CurrenBlockFocus
+[2019.01.17-19.10.49:482][531]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "FP_Camera" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get FP_Camera
+[2019.01.17-19.10.49:508][531]LogBlueprint: Error: [Compiler Player] This blueprint (self) is not a PuzzleBlock_C, therefore ' Target ' must have a connection.
+[2019.01.17-19.10.49:508][531]LogBlueprint: Error: [Compiler Player] The property associated with  FP Camera  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.10.49:508][531]LogBlueprint: Error: [Compiler Player] The property associated with  FP Camera  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.10.49:509][531]LogBlueprint: Error: [Compiler Player] The property associated with  Curren Block Focus  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.10.49:509][531]LogBlueprint: Error: [Compiler Player] The property associated with  Curren Block Focus  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.10.49:509][531]LogBlueprint: Error: [Compiler Player] The property associated with  Curren Block Focus  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.10.49:509][531]LogBlueprint: Error: [Compiler Player] The property associated with  Curren Block Focus  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.10.49:509][531]LogBlueprint: Error: [Compiler Player] The property associated with  Camera Speed Curve  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.10.49:509][531]LogBlueprint: Error: [Compiler Player] The property associated with  FP Camera  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.10.49:816][531]LogBlueprint: Warning: [Compiler Player] [0724,50] Compile of Player failed. 9 Fatal Issue(s) 8 Warning(s) [in 376 ms] (/Game/Player.Player)
+[2019.01.17-19.11.21:795][922]LogSlate: Took 0.015586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.17-19.11.24:217][208]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/PuzzlePlayerController.PuzzlePlayerController_C or BlueprintGeneratedClass /Game/PuzzleBP/Blueprints/PuzzlePlayerController.PuzzlePlayerController_C
+[2019.01.17-19.11.24:218][208]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/PuzzlePlayerController.PuzzlePlayerController_C or BlueprintGeneratedClass /Game/PuzzleBP/Blueprints/PuzzlePlayerController.PuzzlePlayerController_C
+[2019.01.17-19.11.24:435][233]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/PuzzlePlayerController.PuzzlePlayerController_C or BlueprintGeneratedClass /Game/PuzzleBP/Blueprints/PuzzlePlayerController.PuzzlePlayerController_C
+[2019.01.17-19.11.24:435][233]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/PuzzlePlayerController.PuzzlePlayerController_C or BlueprintGeneratedClass /Game/PuzzleBP/Blueprints/PuzzlePlayerController.PuzzlePlayerController_C
+[2019.01.17-19.12.06:759][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter" FILE="../../../../../MyProjects/Test/Content/PuzzleBP/Blueprints/PuzzlePlayerCharacter.uasset" SILENT=true
+[2019.01.17-19.12.06:831][ 55]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzlePlayerCharacter17FED79E4E2780CB83FEB794D475AB65.tmp' to '../../../../../MyProjects/Test/Content/PuzzleBP/Blueprints/PuzzlePlayerCharacter.uasset'
+[2019.01.17-19.13.29:687][480]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.13.29:719][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.13.29:719][480]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.17-19.13.29:734][480]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2019.01.17-19.13.29:754][480]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "FP_Camera" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get FP_Camera
+[2019.01.17-19.13.29:754][480]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CameraSpeedCurve" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get CameraSpeedCurve
+[2019.01.17-19.13.29:754][480]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CurrenBlockFocus" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Set CurrenBlockFocus
+[2019.01.17-19.13.29:754][480]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CurrenBlockFocus" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get CurrenBlockFocus
+[2019.01.17-19.13.29:754][480]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CurrenBlockFocus" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Set CurrenBlockFocus
+[2019.01.17-19.13.29:756][480]LogBlueprint: Error: [Compiler Player] This blueprint (self) is not a PuzzleBlock_C, therefore ' Target ' must have a connection.
+[2019.01.17-19.13.29:757][480]LogBlueprint: Error: [Compiler Player] The property associated with  Curren Block Focus  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.13.29:757][480]LogBlueprint: Error: [Compiler Player] The property associated with  Curren Block Focus  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.13.29:757][480]LogBlueprint: Error: [Compiler Player] The property associated with  Camera Speed Curve  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.13.29:757][480]LogBlueprint: Error: [Compiler Player] The property associated with  FP Camera  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.13.29:757][480]LogBlueprint: Error: [Compiler Player] The property associated with  Curren Block Focus  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.13.29:760][480]LogBlueprint: Warning: [Compiler Player] [0884,44] Compile of Player failed. 6 Fatal Issue(s) 5 Warning(s) [in 27 ms] (/Game/Player.Player)
+[2019.01.17-19.13.30:069][480]LogPlayLevel: PlayLevel: Blueprint regeneration took 350 ms (1 blueprints)
+[2019.01.17-19.13.30:070][480]BlueprintLog: Blueprint Player failed to compile
+[2019.01.17-19.13.32:550][480]LogSlate: Window 'Message' being destroyed
+[2019.01.17-19.13.51:512][495]BlueprintLog: New page: Compile PuzzlePlayerCharacter
+[2019.01.17-19.15.00:910][ 13]BlueprintLog: New page: Compile Player
+[2019.01.17-19.15.00:943][ 13]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "FP_Camera" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get FP_Camera
+[2019.01.17-19.15.00:943][ 13]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CameraSpeedCurve" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get CameraSpeedCurve
+[2019.01.17-19.15.00:945][ 13]LogBlueprint: Error: [Compiler Player] The property associated with  Camera Speed Curve  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.15.00:946][ 13]LogBlueprint: Error: [Compiler Player] The property associated with  FP Camera  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.15.01:232][ 13]LogBlueprint: Warning: [Compiler Player] [0975,91] Compile of Player failed. 2 Fatal Issue(s) 2 Warning(s) [in 322 ms] (/Game/Player.Player)
+[2019.01.17-19.15.29:106][ 55]BlueprintLog: New page: Compile Player
+[2019.01.17-19.15.29:134][ 55]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "FP_Camera" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get FP_Camera
+[2019.01.17-19.15.29:134][ 55]LogBlueprint: Warning: [Compiler Player] Could not find a variable named "CameraSpeedCurve" in 'Player_C'.
+Make sure 'Player_C' has been compiled for  Get CameraSpeedCurve
+[2019.01.17-19.15.29:136][ 55]LogBlueprint: Error: [Compiler Player] The property associated with  Camera Speed Curve  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.15.29:136][ 55]LogBlueprint: Error: [Compiler Player] The property associated with  FP Camera  could not be found in '/Game/Player.Player_C'
+[2019.01.17-19.15.29:470][ 55]LogBlueprint: Warning: [Compiler Player] [1004,15] Compile of Player failed. 2 Fatal Issue(s) 2 Warning(s) [in 364 ms] (/Game/Player.Player)
+[2019.01.17-19.16.15:546][663]BlueprintLog: New page: Compile Player
+[2019.01.17-19.17.25:086][238]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2019.01.17-19.17.27:582][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.17.29:911][705]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.17.29:953][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.17.29:953][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-19.17.29:969][705]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 1:17:29)
+[2019.01.17-19.17.29:969][705]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-19.17.30:027][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057864s)
+[2019.01.17-19.17.30:028][705]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-19.17.30:028][705]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2019.01.17-19.17.30:028][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.058977s)
+[2019.01.17-19.17.30:095][705]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-19.17.30:098][705]LogInit: FAudioDevice initialized.
+[2019.01.17-19.17.30:129][705]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-19.17.30:130][705]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-22.17.30
+[2019.01.17-19.17.30:130][705]LogWorld: Bringing up level for play took: 0.001278
+[2019.01.17-19.17.30:145][705]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0,905
+[2019.01.17-19.17.30:145][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.17.33:048][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.17.33:049][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.17.33:084][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-19.17.33:085][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.17.33:123][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.17.33:152][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.17-19.17.37:012][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.19.43:606][863]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.19.43:632][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.19.43:633][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-19.19.43:633][863]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 1:19:43)
+[2019.01.17-19.19.43:633][863]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-19.19.43:651][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017778s)
+[2019.01.17-19.19.43:652][863]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-19.19.43:653][863]LogPlayLevel: PIE: World Init took: (0.002272s)
+[2019.01.17-19.19.43:653][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.020363s)
+[2019.01.17-19.19.43:701][863]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-19.19.43:706][863]LogInit: FAudioDevice initialized.
+[2019.01.17-19.19.43:739][863]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-19.19.43:741][863]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-22.19.43
+[2019.01.17-19.19.43:741][863]LogWorld: Bringing up level for play took: 0.001775
+[2019.01.17-19.19.43:759][863]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0,514
+[2019.01.17-19.19.43:759][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.19.46:984][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.19.46:984][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.19.47:035][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-19.19.47:036][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.19.47:075][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.19.47:097][231]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.17-19.19.53:318][913]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2019.01.17-19.19.57:237][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.20.57:126][223]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzleExampleMap_Auto29AE7273A4C0377ED3F5A16A3E64CCA2D.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto2.umap'
+[2019.01.17-19.20.57:127][223]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.570
+[2019.01.17-19.20.57:127][223]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.570
+[2019.01.17-19.20.57:130][223]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter] ([1] browsable assets)...
+[2019.01.17-19.20.57:130][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter]
+[2019.01.17-19.20.57:177][223]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzlePlayerCharacter_Auto244766C3A422A463E360C1EB0B01D797E.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter_Auto2.uasset'
+[2019.01.17-19.20.57:178][223]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player] ([1] browsable assets)...
+[2019.01.17-19.20.57:178][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player]
+[2019.01.17-19.20.57:178][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../MyProjects/Test/Saved/Autosaves/Game/Player_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.01.17-19.20.57:247][223]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/Player_Auto241789E4640C847E9C6ABD69CAA713546.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/Player_Auto2.uasset'
+[2019.01.17-19.20.57:249][223]LogFileHelpers: Auto-saving content packages took 0.119
+[2019.01.17-19.27.00:951][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.27.01:892][117]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.17-19.27.01:915][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.27.01:915][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.17-19.27.01:916][117]PIE: New page: PIE session: PuzzleExampleMap (18 янв. 2019 г., 1:27:01)
+[2019.01.17-19.27.01:916][117]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2019.01.17-19.27.01:932][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016072s)
+[2019.01.17-19.27.01:933][117]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2019.01.17-19.27.01:933][117]LogPlayLevel: PIE: World Init took: (0.001372s)
+[2019.01.17-19.27.01:933][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.017708s)
+[2019.01.17-19.27.02:019][117]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.17-19.27.02:025][117]LogInit: FAudioDevice initialized.
+[2019.01.17-19.27.02:061][117]LogLoad: Game class is 'PuzzleGameMode_C'
+[2019.01.17-19.27.02:063][117]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2019.01.17-22.27.02
+[2019.01.17-19.27.02:063][117]LogWorld: Bringing up level for play took: 0.001301
+[2019.01.17-19.27.02:079][117]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0,819
+[2019.01.17-19.27.02:079][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.27.04:616][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.27.04:616][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.27.04:661][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.17-19.27.04:662][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2019.01.17-19.27.04:708][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.17-19.27.04:722][416]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.17-19.27.09:704][961]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2019.01.17-19.27.24:886][382]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphere)
+[2019.01.17-19.27.25:514][432]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphere)
+[2019.01.17-19.27.26:215][507]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.01.17-19.27.27:476][581]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphere)
+[2019.01.17-19.27.28:230][661]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.01.17-19.27.28:813][693]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphere)
+[2019.01.17-19.27.29:250][737]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.01.17-19.27.32:064][ 55]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.01.17-19.27.38:111][694]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphere)
+[2019.01.17-19.27.38:844][756]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2019.01.17-19.27.41:752][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-19.31.00:789][  4]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzleExampleMap_Auto3698E192A4C323CAB59B00CB904C3C5BC.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto3.umap'
+[2019.01.17-19.31.00:791][  4]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.474
+[2019.01.17-19.31.00:791][  4]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.474
+[2019.01.17-19.31.00:794][  4]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter] ([1] browsable assets)...
+[2019.01.17-19.31.00:794][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter]
+[2019.01.17-19.31.00:900][  4]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzlePlayerCharacter_Auto345999A2C4A27A8AB09A909968C4023D9.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter_Auto3.uasset'
+[2019.01.17-19.31.00:920][  4]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player] ([1] browsable assets)...
+[2019.01.17-19.31.00:920][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player]
+[2019.01.17-19.31.00:920][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../MyProjects/Test/Saved/Autosaves/Game/Player_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2019.01.17-19.31.00:964][  4]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/Player_Auto3656AA64E491F70E198830AA91E9BE195.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/Player_Auto3.uasset'
+[2019.01.17-19.31.00:964][  4]LogFileHelpers: Auto-saving content packages took 0.172
+[2019.01.17-19.56.18:605][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.150
+[2019.01.17-19.56.18:607][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player] ([1] browsable assets)...
+[2019.01.17-19.56.18:607][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player]
+[2019.01.17-19.56.18:607][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../MyProjects/Test/Saved/Autosaves/Game/Player_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2019.01.17-19.56.18:693][ 50]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/Player_Auto4001AB1124E17BB42D8EB148177087022.tmp' to '../../../../../MyProjects/Test/Saved/Autosaves/Game/Player_Auto4.uasset'
+[2019.01.17-19.56.18:710][ 50]LogFileHelpers: Auto-saving content packages took 0.104
+[2019.01.17-20.05.41:682][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.17-20.07.17:065][898]LogSlate: Window 'Save Content' being destroyed
+[2019.01.17-20.07.17:101][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../MyProjects/Test/Content/Player.uasset" SILENT=true
+[2019.01.17-20.07.17:420][898]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/Player4E25E47B4B4FA37164BC47BE2624AA99.tmp' to '../../../../../MyProjects/Test/Content/Player.uasset'
+[2019.01.17-20.07.17:431][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Blueprints/PuzzleGameMode" FILE="../../../../../MyProjects/Test/Content/PuzzleBP/Blueprints/PuzzleGameMode.uasset" SILENT=true
+[2019.01.17-20.07.19:313][898]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzleGameMode801AA1934F8A2014A5CCD495B905D051.tmp' to '../../../../../MyProjects/Test/Content/PuzzleBP/Blueprints/PuzzleGameMode.uasset'
+[2019.01.17-20.07.19:933][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter" FILE="../../../../../MyProjects/Test/Content/PuzzleBP/Blueprints/PuzzlePlayerCharacter.uasset" SILENT=true
+[2019.01.17-20.07.20:511][898]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzlePlayerCharacter4D0135B14B2ABFB27CF0729837260C94.tmp' to '../../../../../MyProjects/Test/Content/PuzzleBP/Blueprints/PuzzlePlayerCharacter.uasset'
+[2019.01.17-20.07.20:914][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/PuzzleExampleMap" FILE="../../../../../MyProjects/Test/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.17-20.07.25:817][898]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzleExampleMap5EE82F184BE3C67773DF0B931DB04E37.tmp' to '../../../../../MyProjects/Test/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2019.01.17-20.07.26:916][898]LogFileHelpers: Saving map 'PuzzleExampleMap' took 6.398
+[2019.01.17-20.07.26:950][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/PuzzleExampleMap_BuiltData" FILE="../../../../../MyProjects/Test/Content/PuzzleBP/Maps/PuzzleExampleMap_BuiltData.uasset" SILENT=true
+[2019.01.17-20.07.27:505][898]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzleExampleMap_BuiltData02C0DDCB48A00030B96ABFA904A27A94.tmp' to '../../../../../MyProjects/Test/Content/PuzzleBP/Maps/PuzzleExampleMap_BuiltData.uasset'
+[2019.01.17-20.07.27:541][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzlePlayerController" FILE="../../../../../MyProjects/Test/Content/PuzzlePlayerController.uasset" SILENT=true
+[2019.01.17-20.07.27:546][898]LogSavePackage: Moving '../../../../../MyProjects/Test/Saved/PuzzlePlayerController73AE2DC948BFC2472AB029B9B5289FBB.tmp' to '../../../../../MyProjects/Test/Content/PuzzlePlayerController.uasset'
